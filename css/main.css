@@ -248,6 +248,8 @@ min-height: 4rem;
     padding-right: 5%;
     padding-left: 5%;
     padding-bottom: 5%;
+    max-width: 25em;
+    margin: 0 auto;
 }
 
 dl { 
