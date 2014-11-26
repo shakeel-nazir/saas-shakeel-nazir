@@ -1,0 +1,382 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+-moz-text-size-adjust:100%;
+-ms-text-size-adjust:100%;
+-webkit-text-size-adjust:100%;
+text-size-adjust:100%;
+  }
+  
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body { 
+    padding: 0;
+    margin: 0;
+
+}
+
+header { 
+    background-color: red;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    
+}
+
+
+.bannertexted { 
+    margin-bottom: 3rem;
+    padding: 10%;
+    color: white; 
+    letter-spacing: -.1rem; 
+    width: 100%;
+    text-align: center;
+    font-size: 4rem;
+    background-color: black;
+    
+    
+}
+
+.bannerlink { 
+    margin-bottom: 3rem;
+    padding: 10%;
+    color: white; 
+    letter-spacing: -.3rem; 
+    width: 100%;
+    text-align: left;
+    font-size: 4rem;
+}
+
+.products { 
+background-color: red;
+    padding-bottom: 3%;
+    padding-top: 3%;
+text-align: center;
+}
+.bannertexted a { 
+    text-decoration: none;
+    color: red;
+    font-size:4rem;
+
+}
+
+.button {
+	border-radius: 5px;
+	border: 2px solid red;
+	background-color: darkred;
+	height: 4rem;
+	width: 10rem;
+	margin: auto;
+	text-align: center;
+margin-bottom: 2rem;
+    
+}
+ .top { 
+        padding-top: 1%;
+        padding-right: 5%;
+        padding-bottom: 0;
+    }
+
+a {
+	text-decoration: none;
+	color: red;
+	font-family: Verdana, sans-serif;
+}
+
+span {
+	font-weight: bold;
+	font-size: 18px;
+	color: #ffffff;
+    
+}
+
+.center { 
+    align-content: center;
+}
+
+.logo { 
+    float: left;
+    width: 5rem;
+    height: 5rem;
+}
+.space-right { 
+    padding-right: 40%;
+}
+
+.space-left { 
+    padding-left: 40%;
+}
+.space-marign { 
+    margin-right:3rem;
+    margin-left:3rem;
+}
+.space {
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+
+
+ul { 
+    float:left inherit;
+}
+.nav {
+    padding:0%;
+    list-style-type: none;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+    display: block;
+    text-decoration:none;
+    color: #FF9966;
+}
+
+.nav a:hover, 
+.nav a:focus,
+.nav a:active,
+.nav .nav-current:link,
+.nav .nav-current:visited{ 
+    background: #FF9966;
+    color:#fff;
+}
+
+.navtop {
+    padding:0%;
+    list-style-type: none;
+}
+
+.navtop a,
+.navtop a:link,
+.navtop a:visited {
+    display: block;
+    text-decoration:none;
+    color: #FF9966;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.navtop a:hover, 
+.navtop a:focus,
+.navtop a:active,
+.navtop .navtop-current:link,
+.navtop .navtop-current:visited{ 
+    background: #FF9966;
+    color:#fff; 
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+p { 
+  
+    text-align: center;
+}
+
+figcaption { 
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 5%;
+
+}
+
+.stop { 
+    max-height: 10rem;
+    max-width: 10rem;
+    float: right;
+    padding-right: 3rem;
+}
+
+.stop-pad { 
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.stop-middel { 
+    max-height: 10rem;
+    max-width: 10rem;
+    padding-left: 0;
+}
+
+.stop-left { 
+     max-height: 10rem;
+    max-width: 10rem;
+    padding-left: 3rem;
+} 
+
+.social { 
+    width:45%;
+    height:45%; 
+}
+
+    .lock {
+    display: inline-block;
+     padding-left: 0;
+}
+
+.access { 
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+
+dl { 
+    text-align: center;
+}
+
+form { 
+   
+        padding-left: 43%;
+}
+
+.soical { 
+    display: inline-block;
+    padding-left: 45%; 
+  
+}
+
+footer { 
+    background-color: red;
+}
+
+
+@media only screen and (min-width: 22em) { 
+
+    .lock {
+     display: inline-block;
+     padding-left: 45%;
+        
+}
+   
+    .nav {
+        text-align: center;
+    }
+    
+ 
+    .nav li {
+        display: inline-block;
+        border: 0;
+    }
+
+    .navtop {
+        text-align: center;
+    }
+    
+    .navtop li {
+        display: inline-block;
+        border: 0;
+    }
+    .stop-pad { 
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+    .stop-middel { 
+    max-height: 10rem;
+    max-width: 10rem;
+padding-bottom: 2%;
+        padding-left: 3rem;
+ 
+}
+    
+    h1 {
+        text-align: center;
+        padding-top: 1.3rem;
+    }
+      .bannertexted { 
+    margin-bottom: 3rem;
+    padding: 15%;
+    color: white; 
+     letter-spacing: -.1rem;  
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+    font-size: 5rem;
+    background-image: url(../images/manchester.jpg); 
+    
+   
+    
+}
+@media only screen and (min-width: 50em) {
+ 
+    .lock {
+     display: inline-block;
+     padding-left: 45%;
+}
+    
+    .stop-pad { 
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+    
+    .nav {
+        padding: 0;
+        margin: 0;
+        text-align: right;
+    }
+
+     
+     h1 { 
+        float: left;
+        padding-left:1%;
+    }
+      .bannertexted { 
+    margin-bottom: 3rem;
+    padding: 15%;
+    color: white; 
+     letter-spacing: -.1rem;  
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+    font-size: 5rem;
+    background-image: url(../images/manchester.jpg); 
+  
+    }
+}
+@media only screen and (min-width: 60em){
+   
+ .lock {
+     display: inline-block;
+     padding-left: 45%;
+}
+    
+    .stop-pad { 
+    padding-left: 25rem;
+    padding-right: 25rem;
+}
+
+      h1 { 
+        float: left;
+        padding-left:1%;
+    }
+    
+    .nav {
+        padding: 0;
+        margin: 0;
+        text-align: right;
+    }
+    .bannertexted { 
+    margin-bottom: 3rem;
+    padding: 15%;
+    color: white; 
+     letter-spacing: -.1rem;  
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+    font-size: 5rem;
+    background-image: url(../images/manchester.jpg); 
+    
+    
+}
+    
+}
+
+
+
