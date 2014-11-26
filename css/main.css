@@ -5,31 +5,27 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-  box-sizing: border-box;
--moz-text-size-adjust:100%;
--ms-text-size-adjust:100%;
--webkit-text-size-adjust:100%;
-text-size-adjust:100%;
-  }
-  
+    box-sizing: border-box;
+    -moz-text-size-adjust:100%;
+    -ms-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%;
+    text-size-adjust:100%;
+}
 
 *, *:before, *:after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 body { 
     padding: 0;
     margin: 0;
-
 }
 
 header { 
     background-color: red;
     padding-bottom: 1rem;
     padding-top: 1rem;
-    
 }
-
 
 .bannertexted { 
     margin-bottom: 3rem;
@@ -40,8 +36,6 @@ header {
     text-align: center;
     font-size: 4rem;
     background-color: black;
-    
-    
 }
 
 .bannerlink { 
@@ -55,22 +49,17 @@ header {
 }
 
 .products { 
-background-color: red;
+    background-color: red;
     padding-bottom: 3%;
     padding-top: 3%;
-text-align: center;
+    text-align: center;
 }
+
 .bannertexted a { 
     text-decoration: none;
     color: red;
     font-size:4rem;
-
 }
-
-.picture { 
-    padding-bottom: 40%;
-}
-
 
 dt { 
     padding-bottom: 1rem;
@@ -84,14 +73,14 @@ dt {
 	width: 10rem;
 	margin: auto;
 	text-align: center;
-margin-bottom: 2rem;
-    
+    margin-bottom: 2rem;
 }
- .top { 
-        padding-top: 1%;
-        padding-right: 5%;
-        padding-bottom: 0;
-    }
+ 
+.top { 
+    padding-top: 1%;
+    padding-right: 5%;
+    padding-bottom: 0;
+}
 
 a {
 	text-decoration: none;
@@ -103,7 +92,6 @@ span {
 	font-weight: bold;
 	font-size: 18px;
 	color: #ffffff;
-    
 }
 
 .center { 
@@ -115,6 +103,7 @@ span {
     width: 5rem;
     height: 5rem;
 }
+
 .space-right { 
     padding-right: 40%;
 }
@@ -122,28 +111,27 @@ span {
 .space-left { 
     padding-left: 40%;
 }
+
 .space-marign { 
     margin-right:3rem;
     margin-left:3rem;
 }
 
-
 .space-marignsoical {
     margin-right:30%;
     margin-left:30%;
     margin-bottom: 5%;
-
 }
+
 .space {
     padding-right: 20%;
     padding-left: 20%;
 }
 
-
-
 ul { 
     float:left inherit;
 }
+
 .nav {
     padding:0%;
     list-style-type: none;
@@ -193,7 +181,6 @@ ul {
 }
 
 p { 
-  
     text-align: center;
 }
 
@@ -201,13 +188,11 @@ figcaption {
     text-align: center;
     padding-top: 3%;
     padding-bottom: 5%;
-
 }
 
 .soicalsize {
 min-height: 4rem;
     min-width: 4rem;
-
 }
 
 .stop-pad { 
@@ -215,16 +200,14 @@ min-height: 4rem;
     padding-right: 10%;
 }
 
-
-
 .social { 
     width:45%;
     height:45%; 
 }
 
-    .lock {
+.lock {
     display: inline-block;
-     padding-left: 0;
+    padding-left: 0;
 }
 
 .access { 
@@ -233,14 +216,12 @@ min-height: 4rem;
     padding-bottom: 5%;
 }
 
-
 dl { 
     text-align: center;
 }
 
 form { 
-   
-        padding-left: 43%;
+    padding-left: 43%;
 }
 
 .soical { 
@@ -253,20 +234,17 @@ footer {
     background-color: red;
 }
 
-
 @media only screen and (min-width: 22em) { 
 
     .lock {
-     display: inline-block;
-     padding-left: 45%;
-        
-}
+        display: inline-block;
+        padding-left: 45%;
+    }
    
     .nav {
         text-align: center;
     }
     
- 
     .nav li {
         display: inline-block;
         border: 0;
@@ -281,37 +259,30 @@ footer {
         border: 0;
     }
 
-
-
-    
     h1 {
         text-align: center;
         padding-top: 1.3rem;
     }
     
-    
-      .bannertexted { 
-    margin-bottom: 3rem;
-    padding: 5%;
-    color: white; 
-     letter-spacing: -.1rem;  
-    font-size: 3rem;
-    width: 100%;
-    text-align: center;
-    font-size: 5rem;
-    background-image: url(../images/manchester.jpg); 
-    
-   
-    
+    .bannertexted { 
+        margin-bottom: 3rem;
+        padding: 5%;
+        color: white; 
+        letter-spacing: -.1rem;  
+        font-size: 3rem;
+        width: 100%;
+        text-align: center;
+        font-size: 5rem;
+        background-image: url(../images/manchester.jpg); 
+    }
 }
+
 @media only screen and (min-width: 50em) {
  
     .lock {
-     display: inline-block;
-     padding-left: 45%;
-}
-    
-
+        display: inline-block;
+        padding-left: 45%;
+    }
     
     .nav {
         padding: 0;
@@ -319,34 +290,32 @@ footer {
         text-align: right;
     }
 
-     
-     h1 { 
+    h1 { 
         float: left;
         padding-left:1%;
     }
-      .bannertexted { 
-    margin-bottom: 3rem;
-    padding: 10%;
-    color: white; 
-     letter-spacing: -.1rem;  
-    font-size: 3rem;
-    width: 100%;
-    text-align: center;
-    font-size: 5rem;
-    background-image: url(../images/manchester.jpg); 
-  
+    
+    .bannertexted { 
+        margin-bottom: 3rem;
+        padding: 10%;
+        color: white; 
+        letter-spacing: -.1rem;  
+        font-size: 3rem;
+        width: 100%;
+        text-align: center;
+        font-size: 5rem;
+        background-image: url(../images/manchester.jpg); 
     }
 }
+
 @media only screen and (min-width: 60em){
    
- .lock {
-     display: inline-block;
-     padding-left: 45%;
-}
+    .lock {
+        display: inline-block;
+        padding-left: 45%;
+    }
     
-
-
-      h1 { 
+    h1 { 
         float: left;
         padding-left:1%;
     }
@@ -356,20 +325,19 @@ footer {
         margin: 0;
         text-align: right;
     }
+    
     .bannertexted { 
-    margin-bottom: 3rem;
-    padding: 10%;
-    color: white; 
-     letter-spacing: -.1rem;  
-    font-size: 3rem;
-    width: 100%;
-    text-align: center;
-    font-size: 5rem;
-    background-image: url(../images/manchester.jpg); 
-    
-    
-}
-    
+        margin-bottom: 3rem;
+        padding: 10%;
+        color: white; 
+        letter-spacing: -.1rem;  
+        font-size: 3rem;
+        width: 100%;
+        text-align: center;
+        font-size: 5rem;
+        background-image: url(../images/manchester.jpg); 
+
+    }
 }
 
 
