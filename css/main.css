@@ -67,6 +67,11 @@ text-align: center;
 
 }
 
+.picture { 
+    padding-bottom: 40%;
+}
+
+
 dt { 
     padding-bottom: 1rem;
 }
@@ -126,6 +131,7 @@ span {
 .space-marignsoical {
     margin-right:30%;
     margin-left:30%;
+    margin-bottom: 5%;
 
 }
 .space {
@@ -224,6 +230,7 @@ min-height: 4rem;
 .access { 
     padding-right: 5%;
     padding-left: 5%;
+    padding-bottom: 5%;
 }
 
 
@@ -281,6 +288,8 @@ footer {
         text-align: center;
         padding-top: 1.3rem;
     }
+    
+    
       .bannertexted { 
     margin-bottom: 3rem;
     padding: 5%;
