@@ -77,9 +77,16 @@ a {
     background-color: red;
 }
 
-dt { 
+li { 
+    padding-bottom: 1rem;
+    text-align: center;
+    list-style-type: none;
+}
+
+ul { 
     padding-bottom: 1rem;
 }
+
 
 .button {
 	border-radius: 5px;
