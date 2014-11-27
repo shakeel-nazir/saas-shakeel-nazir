@@ -53,8 +53,6 @@ header {
     padding-top: 1rem;
     padding-bottom: 1rem;
     margin-top: 1rem;
-
-    
 }
 
 .bannertexted a { 
@@ -87,7 +85,6 @@ ul {
     padding: 0;
     margin: 0;
 }
-
 
 .button {
 	border-radius: 5px;
@@ -267,7 +264,6 @@ form {
 .soical { 
     display: inline-block;
     padding-left: 45%; 
-  
 }
 
 footer { 
