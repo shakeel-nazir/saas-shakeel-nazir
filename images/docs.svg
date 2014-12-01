@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 576 576" enable-background="new 0 0 576 576" xml:space="preserve">
+<rect fill="#D9D9D9" width="576" height="20.5"/>
+<rect y="13.4" fill="#ECECEC" width="576" height="51.6"/>
+<rect y="65" fill="#BEC3CC" width="576" height="511"/>
+<rect x="165" y="123.7" fill="#FFFFFF" width="246.7" height="400"/>
+<text transform="matrix(1 0 0 1 192 152)" font-family="'MyriadPro-Regular'" font-size="12">AP Docs</text>
+<line stroke="#231F20" stroke-width="2" stroke-miterlimit="10" x1="226" y1="189" x2="347" y2="189"/>
+<line stroke="#231F20" stroke-width="2" stroke-miterlimit="10" x1="226" y1="205" x2="347" y2="205"/>
+<line stroke="#231F20" stroke-width="2" stroke-miterlimit="10" x1="226" y1="222" x2="347" y2="222"/>
+<line stroke="#231F20" stroke-width="2" stroke-miterlimit="10" x1="282" y1="231" x2="282" y2="239"/>
+<line stroke="#231F20" stroke-width="2" stroke-miterlimit="10" x1="226" y1="236" x2="275" y2="236"/>
+<path fill="#D9D9D9" d="M566,382L566,382c-3.3,0-6-2.7-6-6V83c0-3.3,2.7-6,6-6l0,0c3.3,0,6,2.7,6,6v293C572,379.3,569.3,382,566,382
+	z"/>
+</svg>
