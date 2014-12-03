@@ -20,25 +20,54 @@ body {
     margin: 0;
 }
 
+h1 { 
+    color: white;
+}
+
+.red { 
+    background-color:rgb(249,136,146) 
+}
+
 header { 
-         
+         background-color: #66CCFF;
     padding-bottom: 1rem;
     padding-top: 1rem;
 }
 
-.bannertexted { 
-    margin-bottom: 3rem;
-    padding: 2%;
-    color: white;  
-    width: 100%;
-    text-align: center;
-    font-size: 4rem;
-    background-color: black;
+.max { 
+    max-height: 20rem;
+    max-width: 20rem;
+}
+
+
+
+ .bannertexted { 
+        margin-bottom: 3rem;
+        padding: 5%;
+        color: white;   
+        font-size: 3rem;
+        width: 100%;
+        text-align: center;
+        font-size: 5rem;
+        background-image: url(../images/typewriter.jpg); 
+        background-size: cover;
+        
+    }
+
+.big { 
+    max-height: 10rem;
+    padding-bottom: 1rem;
+}
+
+.thanks { 
+    font-size: 5rem;
+    padding: 0;
+    margin: 0;
 }
 
 .bannerlink { 
     margin-bottom: 3rem;
-    padding: 10%;
+    padding: 3%;
     color: white; 
     letter-spacing: -.3rem; 
     width: 100%;
@@ -46,13 +75,17 @@ header {
     font-size: 4rem;
 }
 
+.green2 { 
+    background-color:  rgb(214,236,239) ;
+}
+
 .products { 
-    background-color: #FFFF66;
+    
     text-align: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
     margin-top: 1rem;
-    color:#66CCFF;
+    border-bottom: 1rem;
     
         
 }
@@ -93,7 +126,20 @@ ul {
     margin: 0;
 }
 
+.button2 {
+    display: block;
+	border-radius: 5px;
+	background-color: #66CCFF;
+	height: 4rem;
+	width: 10rem;
+	margin: auto;
+	text-align: center;
+    padding-bottom: rem;
+}
+ 
+
 .button {
+    display: block;
 	border-radius: 5px;
 	background-color: #66CCFF;
 	height: 4rem;
@@ -150,9 +196,7 @@ button {
 	color: #ffffff;
 }
 
-.blue { 
-    color: #66CCFF;
-}
+
 
 .send { 
     text-align:center;
@@ -269,7 +313,7 @@ form p {
 .navtop a:visited {
     display: block;
     text-decoration:none;
-    color: black;
+    color: white;
     padding-top: 7%;
     padding-bottom: 7%;
 }
@@ -279,7 +323,7 @@ form p {
 .navtop a:active,
 .navtop .navtop-current:link,
 .navtop .navtop-current:visited{ 
-    background: #66CCFF;
+    background: #6591d5;
     color:#fff; 
     padding-top: 7%;
     padding-bottom: 7%;
@@ -303,10 +347,30 @@ min-height: 4rem;
     color: #3a3a3a;
     }
 
+.darkgray {
+    background-color: #f5f5f5;
+}
+
 .stop-pad { 
     padding-left: 10%;
     padding-right: 10%;
 }
+
+.yellow { 
+        background-color:#FFFF66;
+    padding-bottom: 2rem;
+    }
+.white { 
+        color: white;
+    }
+
+.border2 { 
+       border: .5rem solid #6591d5;
+   }
+    
+.border{
+        border: .5rem solid #cd1076;
+    }
 
 .social { 
     width:45%;
@@ -364,38 +428,16 @@ footer {
     .navtop li {
         display: inline-block;
         border: 0;
-        color: #3a3a3a;
+        color: white;
     }
 
     h1 {
         text-align: center;
         padding-top: 1.3rem;
-        color: #3a3a3a;
-    }
-    .yellow { 
-        background-color:#ffc0cb;
-    }
-    .white { 
         color: white;
-    }
-    
-   
-    
-    .border{
-        border: .5rem solid #cd1076;
-    }
-    
-    .bannertexted { 
-        margin-bottom: 3rem;
-        padding: 5%;
-        color: white;   
-        font-size: 3rem;
-        width: 100%;
-        text-align: center;
-        font-size: 5rem;
-        background-image: url(../images/typewriter.jpg); 
         
     }
+ 
     
     header { 
         
@@ -424,17 +466,6 @@ footer {
         padding-left:1%;
     }
     
-    .bannertexted { 
-        margin-bottom: 3rem;
-        padding: 10%;
-        color: white;   
-        font-size: 3rem;
-        width: 100%;
-        text-align: center;
-        font-size: 5rem;
-        background-image: url(../images/type2.jpg); 
-    }
-    
     .curning {
         letter-spacing: -.1rem;
     }
@@ -446,7 +477,7 @@ footer {
 }
     
     .navtop li {
-        color: #3a3a3a;
+        color:white;
     }
     
 
@@ -468,18 +499,6 @@ footer {
         padding: 0;
         margin: 0;
         text-align: right;
-    }
-    
-    .bannertexted { 
-        margin-bottom: 3rem;
-        padding: 8%;
-        color: white;  
-        font-size: 3rem;
-        width: 100%;
-        text-align: center;
-        font-size: 5rem;
-        background-image: url(../images/typewriter.jpg); 
-        
     }
     
     header { 
@@ -510,6 +529,17 @@ footer {
         padding-top: 1.3rem;
         color: white;
     }
+    
+    .navtop a:hover, 
+.navtop a:focus,
+.navtop a:active,
+.navtop .navtop-current:link,
+.navtop .navtop-current:visited{ 
+    background: #66CCFF;
+    color:#fff; 
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
     
     
 }
