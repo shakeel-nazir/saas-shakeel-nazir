@@ -48,7 +48,6 @@ body {
 
 max4 { 
     margin-left: 10rem;
-    padding-right: 50rme;
 }
 
 .lightgray { 
@@ -212,7 +211,6 @@ li {
 	width: 10rem;
 	margin: auto;
 	text-align: center;
-    padding-bottom: rem;
 }
  
 .button {
@@ -567,8 +565,6 @@ footer {
     
     .curning {
         letter-spacing: -.1rem;
-        margin: none;
-        padding: none;
     }
     
     .max11 { 
